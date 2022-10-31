@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const AngryButton = function() {
+  const [anger, setAnger] = useState();
   return (
     <button className="AngryButton">
       {/* When the threshold is not reached */}
