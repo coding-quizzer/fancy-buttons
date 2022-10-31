@@ -4,9 +4,9 @@ const LightSwitchButton = function() {
   return (
     <button className="LightSwitchButton">
       {/* When the state is on */}
-      <span><i>💡</i></span>
+      <span className="on"><i>💡</i> I'm on!</span>
       {/* When the state is off */}
-      <span><i>💡</i></span>
+      <span className="off"><i>💡</i> I'm off!</span>
     </button>
   );
 };
