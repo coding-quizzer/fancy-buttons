@@ -2,7 +2,9 @@ import React from "react";
 
 const TextRepeaterButton = function() {
   return (
-    <span>I like this text</span>
+    <button className="TextRepeaterButton">
+      <span>I like this text</span>
+    </button>
   );
 };
 
