@@ -8,5 +8,7 @@ const AngryButton = function() {
       {/*When the threshold is reached */}
       <span>Rawr!</span>
     </button>
-  )
-}
+  );
+};
+
+export default AngryButton;
